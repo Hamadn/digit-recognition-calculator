@@ -3,7 +3,7 @@ import tensorflow as tf
 import numpy as np
 
 # Load the digit recognition model
-digit_model = tf.keras.models.load_model("/home/hamad/gui_digit_recognizer/model.h5")
+digit_model = tf.keras.models.load_model("model.h5")
 
 def recognize_digit(image):
     if image is not None:
